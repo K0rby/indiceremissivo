@@ -1,0 +1,8 @@
+índice
+remissivo
+estruturas
+dados
+árvore
+tabela
+hash
+listas
