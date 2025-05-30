@@ -1,4 +1,4 @@
-Este é um exemplo de texto para o índice remissivo.
+Este é um exemplo de texto para o índice remissivo João.
 O índice remissivo é uma ferramenta muito útil para localizar palavras em um texto.
-As estruturas de dados são fundamentais para a implementação eficiente deste tipo de sistema.
-A árvore binária de busca, a tabela hash e as listas encadeadas são estruturas de dados importantes.
+As estruturas de dados são fundamentais João para a implementação eficiente deste tipo de sistema.
+A árvore binária de busca, a tabela hash e as João listas encadeadas são estruturas de dados importantes.

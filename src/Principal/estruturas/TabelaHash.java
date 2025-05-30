@@ -16,7 +16,24 @@ public class TabelaHash {
 
     private int calcularHash(String palavra) {
         if (palavra == null || palavra.isEmpty()) return 0;
+
         char primeiraLetra = Character.toLowerCase(palavra.charAt(0));
+
+        // Mapeamento de letras acentuadas para não-acentuadas
+        if (primeiraLetra == 'á' || primeiraLetra == 'à' || primeiraLetra == 'ã' || primeiraLetra == 'â') {
+            primeiraLetra = 'a';
+        } else if (primeiraLetra == 'é' || primeiraLetra == 'ê') {
+            primeiraLetra = 'e';
+        } else if (primeiraLetra == 'í') {
+            primeiraLetra = 'i';
+        } else if (primeiraLetra == 'ó' || primeiraLetra == 'ô' || primeiraLetra == 'õ') {
+            primeiraLetra = 'o';
+        } else if (primeiraLetra == 'ú' || primeiraLetra == 'ü') {
+            primeiraLetra = 'u';
+        } else if (primeiraLetra == 'ç') {
+            primeiraLetra = 'c';
+        }
+
         if (primeiraLetra >= 'a' && primeiraLetra <= 'z') {
             return primeiraLetra - 'a';
         } else {
